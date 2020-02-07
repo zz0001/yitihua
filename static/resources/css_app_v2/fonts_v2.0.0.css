@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'icomsty';
+	src:url('fonts/icomsty.eot?sh3tte');
+	src:url('fonts/icomsty.eot?#iefixsh3tte') format('embedded-opentype'),
+		url('fonts/icomsty.ttf?sh3tte') format('truetype'),
+		url('fonts/icomsty.woff?sh3tte') format('woff'),
+		url('fonts/icomsty.svg?sh3tte#icomsty') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: 'icomsty';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ms-ico-partner:before {
+	content: "\e61b";
+}
+.ms-ico-rank:before {
+	content: "\e619";
+}
+.ms-ico-rmb:before {
+	content: "\e61a";
+}
+.ms-ico-gotop:before {
+	content: "\e618";
+}
+.ms-ico-decorate:before {
+	content: "\e60e";
+}
+.ms-ico-tel:before {
+	content: "\e616";
+}
+.ms-ico-partner2:before {
+	content: "\e617";
+}
+.ms-ico-top:before {
+	content: "\e614";
+}
+.ms-ico-pie:before {
+	content: "\e60d";
+}
+.ms-ico-trash:before {
+	content: "\e60f";
+}
+.ms-ico-change:before {
+	content: "\e610";
+}
+.ms-ico-edit:before {
+	content: "\e611";
+}
+.ms-ico-link:before {
+	content: "\e612";
+}
+.ms-ico-preview:before {
+	content: "\e61c";
+}
+.ms-ico-takeout:before {
+	content: "\e61d";
+}
+.ms-ico-putin:before {
+	content: "\e61e";
+}
+.ms-ico-share:before {
+	content: "\e61f";
+}
+.ms-ico-add:before {
+	content: "\e609";
+}
+.ms-ico-search:before {
+	content: "\e60a";
+}
+.ms-ico-dropdown:before {
+	content: "\e606";
+}
+.ms-ico-message:before {
+	content: "\e620";
+}
+.ms-ico-check:before {
+	content: "\e206";
+}
+.ms-ico-check2:before {
+	content: "\e281";
+}
+.ms-ico-help:before {
+	content: "\e29b";
+}
+.ms-ico-phone:before {
+	content: "\e12b";
+}
+.ms-ico-password:before {
+	content: "\e2ad";
+}
+.ms-ico-clear:before {
+	content: "\e043";
+}
+.ms-ico-close:before {
+	content: "\e117";
+}
+.ms-ico-back:before {
+	content: "\e600";
+}
+.ms-ico-more:before {
+	content: "\e601";
+}
+.ms-ico-down:before {
+	content: "\e602";
+}
+.ms-ico-up:before {
+	content: "\e603";
+}
+.ms-ico-desc:before {
+	content: "\e604";
+}
+.ms-ico-asc:before {
+	content: "\e605";
+}
+.ms-ico-goodsell:before {
+	content: "\e615";
+}

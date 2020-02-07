@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ca2910b-8d13-4751-96d8-df65bad29831" name="Default Changelist" comment="添加&quot;选择地址&quot;组件&#10;巡查上报模块">
+      <change afterPath="$PROJECT_DIR$/src/view/anjianshangbao/test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/apply" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/view/apply/applyMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/apply/myApply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cordova/plugins/com.jsict.mobile.plugins.install" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/static/cordova/plugins/com.jsict.mobile.plugins.install/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/CordovaLib/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/CordovaLib/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/loaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/loaders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pot_components/src/components/toast/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/public/pot_components/src/components/toast/toast.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk-tools-linux-4333796.zip" beforeDir="false" afterPath="$PROJECT_DIR$/sdk-tools-linux-4333796.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text-view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text-view.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/zhangRoute.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/zhangRoute.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/anjianshangbao/dangshiren.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/anjianshangbao/dangshiren.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cordova/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/cordova/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TpQVwKErx22tDjyyxyvbyYLZRL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/cordova/plugins" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/cordova/plugins" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/image" />
+      <recent name="$PROJECT_DIR$/src/view" />
+      <recent name="$PROJECT_DIR$/static/image" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ca2910b-8d13-4751-96d8-df65bad29831" name="Default Changelist" comment="" />
+      <created>1574154584764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574154584764</updated>
+      <workItem from="1574154586154" duration="1635000" />
+      <workItem from="1574158849252" duration="76866000" />
+      <workItem from="1575248936964" duration="4801000" />
+      <workItem from="1575340669542" duration="587000" />
+      <workItem from="1575365578835" duration="200602000" />
+      <workItem from="1576466700698" duration="47496000" />
+      <workItem from="1576673554814" duration="71000" />
+      <workItem from="1576722844616" duration="4407000" />
+      <workItem from="1576806812613" duration="23000" />
+      <workItem from="1577063041740" duration="44761000" />
+      <workItem from="1577322866514" duration="26483000" />
+      <workItem from="1577925654155" duration="28000" />
+      <workItem from="1577925706345" duration="32564000" />
+      <workItem from="1578444266488" duration="4209000" />
+      <workItem from="1578460218607" duration="10695000" />
+      <workItem from="1578479385136" duration="477000" />
+      <workItem from="1578530613484" duration="551000" />
+      <workItem from="1578538788755" duration="8344000" />
+      <workItem from="1578565475773" duration="1256000" />
+      <workItem from="1578881629601" duration="33013000" />
+      <workItem from="1579488782173" duration="8932000" />
+      <workItem from="1579512614787" duration="2574000" />
+      <workItem from="1580781342099" duration="279000" />
+      <workItem from="1580781742700" duration="8570000" />
+    </task>
+    <task id="LOCAL-00001" summary="parts，patrol，phone，rank，repair，visit，workassist&#10;文件夹下html转vue&#10;添加路由">
+      <created>1574163287033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574163287033</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vue项目修改 repairDetail">
+      <created>1574240907027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574240907027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vue项目修改 &#10;pop_up_box.js">
+      <created>1574245481031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574245481031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="集成cordova定位和百度地图">
+      <created>1574680079029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574680079029</updated>
+    </task>
+    <task id="LOCAL-00005" summary="集成cordova定位和百度地图">
+      <created>1574750921030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574750921030</updated>
+    </task>
+    <task id="LOCAL-00006" summary="集成cordova定位和百度地图">
+      <created>1574754229027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574754229027</updated>
+    </task>
+    <task id="LOCAL-00007" summary="集成cordova 文件、jpush">
+      <created>1574767824029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574767824029</updated>
+    </task>
+    <task id="LOCAL-00008" summary="集成cordova定位和百度地图">
+      <created>1574816770028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574816770028</updated>
+    </task>
+    <task id="LOCAL-00009" summary="新UI&#10;welcome、attendance">
+      <created>1575444964030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575444964030</updated>
+    </task>
+    <task id="LOCAL-00010" summary="attendance 地图 定位&#10;本地server修改(陈坚)">
+      <created>1575459426030</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575459426030</updated>
+    </task>
+    <task id="LOCAL-00011" summary="tk组件修改&#10;vue原型链请求url部分修改">
+      <created>1575536115030</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575536115030</updated>
+    </task>
+    <task id="LOCAL-00012" summary="welcome 添加积分排名路由跳转">
+      <created>1575538221026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538221026</updated>
+    </task>
+    <task id="LOCAL-00013" summary="我的 跳转路由">
+      <created>1575538367029</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538367029</updated>
+    </task>
+    <task id="LOCAL-00014" summary="slide slot修改&#10;scroll transfer key">
+      <created>1575545594030</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575545594030</updated>
+    </task>
+    <task id="LOCAL-00015" summary="slide">
+      <created>1575546368028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575546368028</updated>
+    </task>
+    <task id="LOCAL-00016" summary="首页修改，我的页面修改">
+      <created>1575548555028</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575548555028</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改tk-detail-photo控件">
+      <created>1575617561029</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575617561029</updated>
+    </task>
+    <task id="LOCAL-00018" summary="photo组件">
+      <created>1575629472029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575629472029</updated>
+    </task>
+    <task id="LOCAL-00019" summary="btn组件点击事件&#10;待办 处理页面&#10;tk-slide修改&#10;修改header高度">
+      <created>1575788269028</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575788269029</updated>
+    </task>
+    <task id="LOCAL-00020" summary="btn组件点击事件 调整&#10;首页待办 添加item点击事件&#10;督察督办处理">
+      <created>1575798552026</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575798552027</updated>
+    </task>
+    <task id="LOCAL-00021" summary="tk-textarea">
+      <created>1575940459033</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575940459033</updated>
+    </task>
+    <task id="LOCAL-00022" summary="tk-form 单行">
+      <created>1575940865029</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575940865029</updated>
+    </task>
+    <task id="LOCAL-00023" summary="巡查主页面、详情页修改&#10;选择地址页面&#10;随手拍&#10;首页头像">
+      <created>1575949095029</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949095029</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加&quot;选择地址&quot;组件&#10;巡查上报模块">
+      <created>1575971777030</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1575971777030</updated>
+    </task>
+    <task id="LOCAL-00025" summary="button-select 新增item字段&#10;拍照组件适配&#10;新增api接口&#10;首页隐藏部分内容">
+      <created>1576134998029</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576134998029</updated>
+    </task>
+    <task id="LOCAL-00026" summary="vuex 添加巡查上报暂存内容&#10;巡查上报 暂存">
+      <created>1576150449029</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576150449029</updated>
+    </task>
+    <task id="LOCAL-00027" summary="scroll 参数">
+      <created>1576463183028</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576463183028</updated>
+    </task>
+    <task id="LOCAL-00028" summary="pot组件颜色&#10;vuex&#10;巡查接口">
+      <created>1576492069029</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1576492069029</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修改组件">
+      <created>1576575625029</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1576575625029</updated>
+    </task>
+    <task id="LOCAL-00030" summary="选择当事人&#10;tab-bar">
+      <created>1577101233033</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577101233033</updated>
+    </task>
+    <task id="LOCAL-00031" summary="cordova">
+      <created>1577324144032</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1577324144032</updated>
+    </task>
+    <task id="LOCAL-00032" summary="添加&quot;选择地址&quot;组件&#10;巡查上报模块">
+      <created>1577329057029</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1577329057029</updated>
+    </task>
+    <task id="LOCAL-00033" summary="doPost修改&#10;添加checkPermission cordova插件">
+      <created>1577440343029</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1577440343029</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1577440756027</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577440756027</updated>
+    </task>
+    <task id="LOCAL-00035" summary="添加&quot;讯飞语音输入&quot;js插件&#10;版本检测">
+      <created>1578307997031</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1578307997031</updated>
+    </task>
+    <task id="LOCAL-00036" summary="添加&quot;选择地址&quot;组件&#10;巡查上报模块">
+      <created>1578362134031</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1578362134032</updated>
+    </task>
+    <task id="LOCAL-00037" summary="添加公共字段type=mobile">
+      <created>1578388162026</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1578388162026</updated>
+    </task>
+    <task id="LOCAL-00038" summary="修改Android main">
+      <created>1578552587031</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1578552587031</updated>
+    </task>
+    <task id="LOCAL-00039" summary="添加sdk地址">
+      <created>1578555541031</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1578555541031</updated>
+    </task>
+    <task id="LOCAL-00040" summary="修改讯飞语音插件java">
+      <created>1578910686027</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1578910686027</updated>
+    </task>
+    <task id="LOCAL-00041" summary="上报 bug修改">
+      <created>1579394325034</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1579394325034</updated>
+    </task>
+    <task id="LOCAL-00042" summary="添加&quot;选择地址&quot;组件&#10;巡查上报模块">
+      <created>1579398451032</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1579398451032</updated>
+    </task>
+    <task id="LOCAL-00043" summary="bug">
+      <created>1579430806032</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1579430806032</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="slide" />
+    <MESSAGE value="首页修改，我的页面修改" />
+    <MESSAGE value="修改tk-detail-photo控件" />
+    <MESSAGE value="photo组件" />
+    <MESSAGE value="btn组件点击事件&#10;待办 处理页面&#10;tk-slide修改&#10;修改header高度" />
+    <MESSAGE value="btn组件点击事件 调整&#10;首页待办 添加item点击事件&#10;督察督办处理" />
+    <MESSAGE value="tk-textarea" />
+    <MESSAGE value="tk-form 单行" />
+    <MESSAGE value="巡查主页面、详情页修改&#10;选择地址页面&#10;随手拍&#10;首页头像" />
+    <MESSAGE value="button-select 新增item字段&#10;拍照组件适配&#10;新增api接口&#10;首页隐藏部分内容" />
+    <MESSAGE value="vuex 添加巡查上报暂存内容&#10;巡查上报 暂存" />
+    <MESSAGE value="scroll 参数" />
+    <MESSAGE value="pot组件颜色&#10;vuex&#10;巡查接口" />
+    <MESSAGE value="修改组件" />
+    <MESSAGE value="选择当事人&#10;tab-bar" />
+    <MESSAGE value="cordova" />
+    <MESSAGE value="doPost修改&#10;添加checkPermission cordova插件" />
+    <MESSAGE value="添加&quot;讯飞语音输入&quot;js插件&#10;版本检测" />
+    <MESSAGE value="添加公共字段type=mobile" />
+    <MESSAGE value="修改Android main" />
+    <MESSAGE value="添加sdk地址" />
+    <MESSAGE value="修改讯飞语音插件java" />
+    <MESSAGE value="上报 bug修改" />
+    <MESSAGE value="添加&quot;选择地址&quot;组件&#10;巡查上报模块" />
+    <MESSAGE value="bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="377" y="165" key="#Deployment" timestamp="1578553117956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="440" y="192" key="#Deployment/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1578479461869" />
+    <state x="377" y="165" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1578553117956" />
+    <state x="519" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578469154329">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="335" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1578469154329" />
+    <state x="404" y="123" width="938" height="823" key="CommitChangelistDialog2" timestamp="1579430803700">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="404" y="123" width="938" height="823" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1579430803700" />
+    <state x="346" y="84" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578552583881" />
+    <state x="566" y="300" key="FileChooserDialogImpl" timestamp="1577328894168">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="566" y="300" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1577328894168" />
+    <state x="144" y="81" key="MergeDialog" timestamp="1577243608098">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="168" y="94" key="MergeDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576633153803" />
+    <state x="144" y="81" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1577243608098" />
+    <state x="553" y="249" key="MultipleFileMergeDialog" timestamp="1579253600208">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="553" y="249" key="MultipleFileMergeDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1579253600208" />
+    <state x="474" y="213" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1577329244055" />
+    <state x="606" y="253" key="RollbackChangesDialog" timestamp="1578556116618">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="606" y="253" key="RollbackChangesDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1578556116618" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1579486679114">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1578565811092" />
+    <state x="341" y="164" key="SettingsEditor/-1920.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1579486679114" />
+    <state x="641" y="379" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579482607140">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="641" y="379" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1579482607140" />
+    <state x="549" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1578552524302" />
+    <state x="429" y="305" width="698" height="472" key="find.popup" timestamp="1580909750968">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="500" y="356" width="698" height="472" key="find.popup/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1579488877574" />
+    <state x="429" y="305" width="698" height="472" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1580909750968" />
+    <state x="713" y="429" key="publish.login" timestamp="1578905908666">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="713" y="429" key="publish.login/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1578905908666" />
+    <state x="611" y="368" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1578553123883" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1580811681530">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1579509429283" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580811681530" />
+  </component>
+</project>

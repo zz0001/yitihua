@@ -1,0 +1,70 @@
+[
+    {
+        "path": "/",
+        "componentUrl": "index.vue"
+    },
+    {
+        "path": "/button",
+        "componentUrl": "button.vue"
+    },
+    {
+        "path": "/tip",
+        "componentUrl": "tip.vue"
+    },
+    {
+        "path": "/list",
+        "componentUrl": "list.vue"
+    },
+    {
+        "path": "/sign",
+        "componentUrl": "sign.vue"
+    },
+    {
+        "path": "/form",
+        "componentUrl": "form.vue"
+    },
+    {
+        "path": "/switch",
+        "componentUrl": "switch.vue"
+    },
+    {
+        "path": "/menu",
+        "componentUrl": "menu.vue"
+    },
+    {
+        "path": "/poper",
+        "componentUrl": "poper.vue"
+    },
+    {
+        "path": "/image",
+        "componentUrl": "image.vue"
+    },
+    {
+        "path": "/chat",
+        "componentUrl": "chat.vue"
+    },
+    {
+        "path": "/upload",
+        "componentUrl": "upload.vue"
+    },
+    {
+        "path": "/slide",
+        "componentUrl": "slide.vue"
+    },
+    {
+        "path": "/other",
+        "componentUrl": "other.vue"
+    },
+    {
+        "path": "/voice",
+        "componentUrl": "voice.vue"
+    },
+    {
+        "path": "/file",
+        "componentUrl": "file.vue"
+    },
+    {
+        "path": "/qrCode",
+        "componentUrl": "qrCode.vue"
+    }
+]

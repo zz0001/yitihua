@@ -1,0 +1,50 @@
+[{
+  "path": "gridCaseDetail",
+  "componentUrl": "caseDetail/gridCaseDetail.vue"
+},{
+  "path": "commandCaseDetail",
+  "componentUrl": "caseDetail/commandCaseDetail.vue"
+},{
+  "path": "waitcaseTaskEdit",
+  "componentUrl": "caseDetail/waitcaseTaskEdit.vue"
+},{
+  "path": "doubleRandom",
+  "componentUrl": "caseDetail/doubleRandom.vue"
+},{
+  "path": "doubleRandomDetail",
+  "componentUrl": "caseDetail/doubleRandomDetail.vue"
+},{
+  "path": "handleInspectEdit",
+  "componentUrl": "todo/handleInspectEdit.vue"
+},{
+  "path": "photoAlreadyCase",
+  "componentUrl": "photograph/photoAlreadyCase.vue"
+},{
+  "path":"photoAlreadyDetail",
+  "componentUrl": "photograph/photoAlreadyDetail.vue"
+},{
+  "path":"normalCaseDetail",
+  "componentUrl": "anjianshangbao/normalCaseDetail.vue"
+},{
+  "path":"ajWaitToDo",
+  "componentUrl": "anjianshangbao/ajWaitToDo.vue"
+},{
+  "path":"caseRegisterDetail",
+  "componentUrl": "waitCaseEvent/caseRegister/caseRegisterDetail.vue"
+},{
+  "path":"caseSurveryDetail",
+  "componentUrl": "waitCaseEvent/caseSurvery/caseSurveryDetail.vue"
+},{
+  "path":"punishNoticeDetail",
+  "componentUrl": "waitCaseEvent/casePunishNotice/punishNoticeDetail.vue"
+},{
+  "path":"decsionDetail",
+  "componentUrl": "waitCaseEvent/casePunishDecsion/decsionDetail.vue"
+},{
+  "path":"caseEndDetail",
+  "componentUrl": "waitCaseEvent/caseEnd/caseEndDetail.vue"
+},{
+  "path":"chooseApprover",
+  "componentUrl": "chooseApprover.vue"
+}
+]

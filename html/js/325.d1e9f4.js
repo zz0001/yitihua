@@ -1,0 +1,1 @@
+webpackJsonp([325],{1380:function(n,e,t){"use strict";!function(n,e){var t=n.documentElement,i="orientationchange"in window?"orientationchange":"resize",o=function(){var n=t.clientWidth;n&&(t.style.fontSize=n/520*20+"px")};n.addEventListener&&(o(),e.addEventListener(i,o,!1),n.addEventListener("DOMContentLoaded",o,!1))}(document,window)}});

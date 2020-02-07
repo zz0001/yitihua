@@ -1,0 +1,95 @@
+<template>
+        <tpoper>
+                <div class="poperTxt">
+                        <div class="title">{{title}}</div>
+                        <div v-html="data" class="detail-box">
+                               
+                        </div>
+                        <div v-if="wgz" class="wgz-container">
+                                <div class="wgz-title">网格长</div>
+                                <div class="wgz">
+                                        <img class="photo" :src="'/zhsq/'+wgz.userPic" alt="">
+                                        <!-- <div class="photo" :style="{'background-image':'/zhsq/'+wgz.userPic}"></div> -->
+                                        <div>{{wgz.userName}}</div>
+                                        <div>{{wgz.mobile}}</div>
+                                        <div>{{wgz.duty}}</div>
+                                </div>
+                        </div>
+                        <div v-if="wgy" class="wgz-container wgy-container">
+                                <div class="wgz-title">
+                                        网格员
+                                </div>
+                                <div class="wgz" v-for="item of wgy">
+                                        <pc-img class="photo" :src="'/zhsq/'+item.userPic" alt=""></pc-img>
+                                        <!-- <div class="photo" :style="{'background-image':'/zhsq/'+wgz.userPic}"></div> -->
+                                        <div>{{item.userName}}</div>
+                                        <div>{{item.mobile}}</div>
+                                        <div>{{item.duty}}</div>
+                                </div>
+                        </div>
+                </div>
+        </tpoper>
+        
+</template>
+
+<script>
+export default {
+        props: ['data','title','wgz','wgy'],
+        name: 'poperTxt',
+        components:{
+                tpoper:()=>import('./poper.vue')
+        },
+        mounted() {
+        }
+}
+</script>
+
+<style lang="less">
+        .poperTxt{
+                background: #04236dcc;
+                width:1000px;
+                height:800px;
+                 .title {
+                        text-align: center;
+                        font-size: 22px;
+                        text-indent: 30px;
+                        border-bottom: 1px solid #1C318A;
+                        line-height: 60px;
+                        color:rgb(230, 229, 231);
+                }
+                .wgz-container{
+                        float:left;
+                        border-right:1px solid #ddd;
+                         width:160px;
+                         .wgy-container{
+                                 width:auto;
+                         }
+                }
+                .wgz-title{
+                        margin-left:20px;
+                        margin-bottom:20px;
+                }
+                .wgz{
+                        margin-left:20px;
+                         width:120px;
+                        .photo{
+                               width:120px;
+                                background-size:cover;
+                        }
+                        >div{
+                                text-align: center;
+                        }
+                }
+                
+                .detail-box {
+                        line-height:40px;
+                        padding:30px;
+                        height:740px;
+                        box-sizing:border-box;
+                        overflow:scroll;
+                        &::-webkit-scrollbar {
+                                display: none;
+                        }
+                }
+        }
+</style>

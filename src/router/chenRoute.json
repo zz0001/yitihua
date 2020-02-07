@@ -1,0 +1,49 @@
+[{
+    "path":"login",
+    "componentUrl":"login.vue"
+},{
+    "path":"address-list",
+    "componentUrl":"address/list.vue"
+},{
+    "path":"address-detail",
+    "componentUrl":"address/detail.vue"
+},{
+    "path":"notice-detail",
+    "componentUrl":"notice/detail.vue"
+},{
+    "path":"chatRoom",
+    "componentUrl":"address/chatRoom"
+},{
+    "path":"duchaduban",
+    "componentUrl":"duchaduban/index.vue"
+},{
+    "path":"anjianshangbao",
+    "componentUrl":"anjianshangbao/index.vue"
+},{
+    "path":"yishangbao",
+    "componentUrl":"anjianshangbao/yishangbao.vue"
+},{
+    "path":"anjianchengbanren",
+    "componentUrl":"anjianshangbao/anjianchengbanren.vue"
+},{
+    "path": "randomAllList",
+    "componentUrl": "doubleRandom/randomAllList.vue"
+},{
+    "path": "doubleFilter",
+    "componentUrl": "doubleRandom/doubleFilter.vue"
+},{
+    "path":"randomDetail",
+    "componentUrl":"doubleRandom/randomDetail.vue"
+},{
+    "path":"updatePwd",
+    "componentUrl":"updatePwd.vue"
+},{
+    "path":"download",
+    "componentUrl":"download.vue"
+},{
+    "path":"download-history",
+    "componentUrl":"download-history.vue"
+},{
+    "path":"more",
+    "componentUrl":"more.vue"
+}]

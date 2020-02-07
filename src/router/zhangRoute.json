@@ -1,0 +1,66 @@
+[
+  {
+    "path": "welcome",
+    "componentUrl": "welcome.vue"
+  },
+  {
+    "path": "attendance",
+    "componentUrl": "attendance/attendance.vue"
+  },
+  {
+    "path": "my",
+    "componentUrl": "my/my.vue"
+  },
+  {
+    "path": "pointRank",
+    "componentUrl": "point/pointRank.vue"
+  },
+  {
+    "path": "pointDetail",
+    "componentUrl": "point/pointDetail.vue"
+  },
+  {
+    "path": "inspectionReportedList",
+    "componentUrl": "inspection/inspectionReportedList.vue"
+  },
+  {
+    "path": "handleDispatch",
+    "componentUrl": "todo/handleDispatch.vue"
+  },
+  {
+    "path": "handleCase",
+    "componentUrl": "todo/handleCase.vue"
+  },
+  {
+    "path": "handleCaseEdit",
+    "componentUrl": "todo/handleCaseEdit.vue"
+  },
+  {
+    "path": "handleInspect",
+    "componentUrl": "todo/handleInspect.vue"
+  },
+  {
+    "path": "photographEdit",
+    "componentUrl": "photograph/photographEdit.vue"
+  },
+  {
+    "path": "chooseLocation",
+    "componentUrl": "patrolReport/chooseLocation.vue"
+  },
+  {
+    "path": "patrolRecord",
+    "componentUrl": "patrolReport/patrolRecord.vue"
+  },
+  {
+    "path": "chooseTime",
+    "componentUrl": "patrolReport/chooseTime.vue"
+  },
+  {
+    "path": "dangshiren",
+    "componentUrl": "anjianshangbao/dangshiren.vue"
+  },
+  {
+    "path": "applyMain",
+    "componentUrl": "apply/applyMain.vue"
+  }
+]

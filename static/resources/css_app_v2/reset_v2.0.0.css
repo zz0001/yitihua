@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+/*------------------------------------*\
+	#全局通用
+\*------------------------------------*/
+* {
+	text-shadow: none;	
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+ul, li, h1, h2, h3, h4, h5, h6, p,img {
+	margin: 0;
+	padding: 0;
+}
+/*table {
+	width: 100%;
+	border: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+a {
+	display: block;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: 0;
+}*/
+.hide {
+	display: none;
+}
+
+.mt03 {
+	margin-top: 0.3rem;
+}
+.mt04 {
+	margin-top: 0.4rem;
+}
+.mt05 {
+	margin-top: 0.5rem;
+}
+.mt06 {	
+	margin-top: 0.6rem;
+}
+.mt08 {
+	margin-top: 0.8rem;
+}
+.mt10 {
+	margin-top: 1rem;
+}
+.mt15 {
+	margin-top: 1.5rem;
+}
+.fl{ 
+	float:left;
+}
+.fr{ 
+	float:right
+}
+.blank05 {
+	height: 0.5rem;
+}
+.blank10 {
+	height: 1rem;
+}
+.blank20 {
+	height: 2rem;
+}
+.blank30 {
+	height: 3rem;
+}
+.blank40 {
+	height: 4rem;
+}
+.blank50 {
+	height: 5rem;
+}
+
+
+
+/*------------------------------------*\
+	#Jquerymobile 框架重载样式
+\*------------------------------------*/
+
+.ui-content {
+	position: relative;
+	padding: 0;
+}
+.ui-body-soko {
+	background-color: #ededed;
+	color:#4d4d4d;
+	background-image:none 
+}
+.ui-body-c {
+	background-color: #ededed;
+	color:#4d4d4d;
+	background-image:none 
+}
+.ui-focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ui-corner-all {
+	border-radius: 0;
+}
+.ui-input-search {
+	padding: 0;
+	padding-left: 30px;
+	width: auto;
+	border: 1px solid #ccc;
+}
+.ui-shadow-inset {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.ui-link {
+	font-style: normal;
+}
+.ui-body-c .ui-link{
+	font-weight: normal;
+	color: #0a83bf;
+}
+textarea.ui-input-text{
+	height: auto;
+}
+
+
+.page_header { 
+	position: relative;
+}
+.page_header:after{ 
+	display:table; 
+	clear: both; 
+	height:0; 
+	content:"";
+}
+.page_content { 
+	position: relative;
+}
+.page_content:after{ 
+	display:table; 
+	clear:both; 
+	height:0; 
+	content:"";
+}
+.clearfix:after { 
+	display: table; 
+	clear: both; 
+	height: 0; 
+	content: "";
+}
+
+
+
+/*------------------------------------*\
+	#全局-网格
+\*------------------------------------*/
+
+.grid2 > ul:after,
+.grid3 > ul:after,
+.grid4 > ul:after,
+.grid5 > ul:after,
+.grid3_2 > ul:after,
+.grid2_3 > ul:after,
+.grid1_4 > ul:after,
+.grid4_1 > ul:after { 
+	display: table; 
+	clear: both;
+	height: 0; 
+	content: ""; 
+}
+.grid2 > ul > li { 
+	float: left; 
+	width: 50%;
+}
+.grid3 > ul > li { 
+	float: left; 
+
+}
+.grid4 > ul > li { 
+	float: left; 
+	width: 25%;
+}
+.grid5 > ul > li { 
+	float: left; 
+	width: 20%;
+}
+.grid3_2 > ul > li:first-child { 
+	float: left; 
+	width: 66.6667%;
+}
+.grid3_2 > ul > li:last-child { 
+	float: left; 
+	width: 33.3333%;
+}
+.grid2_3 > ul > li:first-child { 
+	float: left; 
+	width: 33.3333%;
+}
+.grid2_3 > ul > li:last-child { 
+	float: left; 
+	width: 66.6667%;
+}
+.grid1_4 > ul > li:first-child { 
+	float: left; 
+	width: 25%;
+}
+.grid1_4 > ul > li:last-child { 
+	float: left; 
+	width: 75%;
+}
+.grid4_1 > ul > li:first-child { 
+	float: left; 
+	width: 75%;
+}
+.grid4_1 > ul > li:last-child { 
+	float: left; 
+	width: 25%;
+}
+
+.m-none{
+	display: none;
+}
+.m-block{
+	display: block;
+}
+
+
+/*------------------------------------*\
+	#半像素取值细线
+\*------------------------------------*/
+
+.discount-top{
+	border-width: 1px 0 0 0;
+	-webkit-border-image: url("../images_app_v2/line_icon1.png") 2 0 stretch;	
+}
+.discount-bottom{
+	border-width: 0 0 1px 0;
+	-webkit-border-image: url("../images_app_v2/line_icon1.png") 2 0 stretch;	
+}
+.discount-left{
+	border-width: 0 0 0 1px;
+	-webkit-border-image: url("../images_app_v2/line_icon2.png") 0 2 round;	
+}
+.discount-right{
+	border-width: 0 1px 0 0;
+	-webkit-border-image: url("../images_app_v2/line_icon2.png") 0 2 round;	
+}
+

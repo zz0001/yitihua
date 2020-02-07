@@ -1,0 +1,278 @@
+@charset "utf-8";
+/*公共样式*/
+html, body, span,  ol, ul, li, form, table, tbody, thead, tr, th, td, footer,header, section, button, input, textarea, p{
+	margin:0;padding:0;box-sizing:border-box;
+}
+header,footer,section{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+html,body,img{border:0;}
+img{border:0;vertical-align: middle;}
+em{font-style: normal;}
+[hidefocus],summary{outline:0;}
+ul,ol,li{list-style:none;}
+textarea{overflow:auto;resize:none;}
+input,textarea{-webkit-appearance:none;border:none;outline:none;background:none;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+del,ins,u,s,a{text-decoration:none;}
+body,textarea,input,button,select{color:#333;outline:0;}
+body,html{height: 100%;}
+a{-webkit-tap-highlight-color:rgba(255,0,0,0);outline:none;}
+.bord0im{
+	border:0!important;
+}
+.widkd3{
+	width: 30%;
+}
+.widkd7{
+	width: 70%;
+}
+.widkd5{
+	width:50%;
+}
+.mt2{
+	margin-top: 2%;
+}
+.mt4{
+	margin-top: 4%;
+}
+.disTw{
+	display: table;
+	width: 100%;
+}
+.vm{
+	vertical-align: middle;
+}
+.vb{
+	vertical-align: bottom;
+}
+.disI{
+	display: inline-block;
+}
+.disb{
+	display:block;
+}
+.f12{
+	font-size: 12px;
+}
+.f13{
+	font-size: 13px;
+}
+.f14{
+	font-size: 14px;
+}
+.f15{
+	font-size: 15px;
+}
+.orginc{
+	color:#ff9000;
+}
+.huic1{
+	color:#333;
+}
+.huic2{
+	color:#555;
+}
+.huic3{
+	color:#999;
+}
+.huic4{
+	color:#808080;
+}
+.huic5{
+	color:#545454;
+}
+.huic6{
+	color:#666;
+}
+.lhei22{
+	line-height: 22px;
+}
+.tl{
+	text-align: left;
+}
+.tc{
+	text-align: center;
+}
+.tr{
+	text-align: right;
+}
+/*新样式*/
+.KpiIndexContent{
+	background: #fff;
+	padding-left: 4%;
+}
+.KpiIndexContentList li,.KpixqContentList li,.KpiwentText{
+	padding:4% 4% 4% 0;
+	border-bottom:1px solid #e6e6e6;
+}
+.KpiIndexContentList .listLeft{
+	width:70%;
+}
+.KpiIndexContentList .listRight{
+	width:30%;
+}
+.KpixqContentList .xqListleft{
+	width:40%;
+}
+.KpixqContentList .xqListright{
+	width:60%;
+}
+.KpiwentText_content{
+	margin-top: 2%;
+}
+.KpiwentText_content1{
+	margin-top: 5%;
+}
+.KpixqjiluList{
+	background: #fff;
+	padding:4%;
+	margin-top:2%;
+}
+.Kpititleleft{
+	width:50%;
+}
+.Kpititleright{
+	width:50%;
+}
+.KpiButtleft{
+	width:70%;
+}
+.KpiButtright{
+	width:30%;
+	padding-right:5%;
+}
+.KpiButtright img{
+	width:75%;
+}
+.timeaxis {
+    border-left: 1px solid #d8d8d8;
+    margin-left: 7%;
+}
+.KpichulibzList{
+	padding-top:6%;
+}
+.timeaxis li {
+    position: relative;
+    background: #f7f7f7;
+    padding:3% 5%;
+    border-radius: 6px;
+    margin:6%;
+}
+.timeaxis li:first-child{
+	margin-top: 0;
+}
+.timeaxis li:first-child:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background: #fff;
+    height: 60%;
+    left: -7%;
+    top: -55%;
+}
+.timeaxis li:last-child:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background: #fff;
+    height: 85%;
+    bottom: 0;
+    left: -7%;
+}
+.timeaxis li .passImg{
+	position: absolute;
+    z-index: 100;
+    top: 2%;
+    left: -12%;
+    width: 10%;
+}
+.KpifootBorder{
+	height:7px;
+	background: #d9d9d9;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5em;
+	margin-top: 5%;
+}
+.KpifootBorder1,.KpifootBorder2,.KpifootBorder3{
+	position: absolute;
+	height: 7px;
+	left:0;
+	top:0;
+	width:85%;
+	background: #63aeff;
+	border-radius: 5em;
+}
+.KpifootBorder2{
+	background: #ff9a6d;
+	width:91%;
+}
+.KpifootBorder3{
+	background: #7ad456;
+	width:78%;
+}
+.KpifenleijdList{
+	background: #fff;
+	padding-left:4%;
+	margin-top: 2.5%;
+}
+.KpifenleijdList li{
+	padding:4% 4% 4% 0;
+	border-bottom:1px solid #e5e3e3;
+}
+.KpifenleijdList li:last-child{
+	border-bottom:0;
+}
+.KpifooterNewButon{
+	width:92%;
+	margin:4% auto 4%;
+	background: #f5a034;
+	color: #fff;
+	font-size: 15px;
+	padding:2.5%;
+	border-radius: 0.25em;
+}
+
+ .KpiTcbackG{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index: 20;
+	background: rgba(0,0,0,0.5);
+}
+.KpiFooterContent{
+	background: #fff;
+	position: absolute;
+	bottom:-100%;
+	left:0;
+	right:0;
+	z-index: 25;
+	padding:0 5% 5% 5%;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.KpiNameTitle{
+	font-size: 15px;
+	color:#333;
+	padding:5% 0;
+}
+.KpibumenList{
+	background: #f2f2f2;
+	border-radius: 0.3em;
+}
+.KpibumenList li{
+	display: table;
+	width: 100%;
+	border-bottom:1px solid #e6e6e6;
+	padding:5%;
+	font-size: 15px;
+}
+.KpibumenList li:last-child{
+	border: 0;
+}
+.kdts-botwrap-open {
+	bottom: 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	}

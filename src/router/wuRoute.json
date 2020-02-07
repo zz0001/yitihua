@@ -1,0 +1,61 @@
+[{
+    "path": "grid",
+    "componentUrl": "grid/grid.vue"
+}, {
+    "path": "grid-list",
+    "componentUrl": "grid/list.vue"
+}, {
+    "path": "notice-list",
+    "componentUrl": "notice/list.vue"
+}, {
+    "path": "doubleRandom-list",
+    "componentUrl": "doubleRandom/list.vue"
+}, {
+    "path": "patrolReport",
+    "componentUrl": "patrolReport/patrolReport.vue"
+}, {
+    "path": "patrolReport-detail",
+    "componentUrl": "patrolReport/detail.vue"
+}, {
+    "path": "toDeal-index",
+    "componentUrl": "toDeal/index.vue"
+}, {
+    "path": "centerWork",
+    "componentUrl": "centerWork/centerWork.vue"
+}, {
+    "path": "centerWorkDetail",
+    "componentUrl": "centerWork/detail.vue"
+}, {
+    "path": "caseSearch",
+    "componentUrl": "caseSearch/caseSearch.vue"
+}, {
+    "path": "administrativeCounterpart",
+    "componentUrl": "administrativeCounterpart/administrativeCounterpart.vue"
+}, {
+    "path": "pointGrid",
+    "componentUrl": "point/pointGrid.vue"
+}, {
+    "path": "administrativeLicense",
+    "componentUrl": "administrativeLicense/administrativeLicense.vue"
+}, {
+    "path": "lawAndRegulation",
+    "componentUrl": "lawAndRegulation/lawAndRegulation.vue"
+}, {
+    "path": "enterprise",
+    "componentUrl": "enterprise/enterprise.vue"
+}, {
+    "path": "approvalDeal",
+    "componentUrl": "caseDetail/approvalDeal.vue"
+}, {
+    "path": "approvalExamine",
+    "componentUrl": "caseDetail/approvalExamine.vue"
+}, {
+    "path": "historyDeal",
+    "componentUrl": "caseDetail/historyDeal.vue"
+}, {
+    "path": "orderDetail",
+    "componentUrl": "caseDetail/orderDetail.vue"
+}, {
+    "path": "download-history-detail",
+    "componentUrl": "download-history-detail.vue"
+}]

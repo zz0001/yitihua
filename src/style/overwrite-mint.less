@@ -1,0 +1,54 @@
+@import '~@/style/less-variable.less';
+@import '~@/style/common.less';
+
+// 覆写 mint-ui 的样式
+.mint-header {
+    background-color: @blue;
+    padding: 0 0.5rem;
+    height: 2.2rem;
+    font-size: 0.75rem;
+    line-height: 1;
+    .border-bottom;
+
+    .mint-header-title {
+        color: @header-title;
+        font-size: 0.75rem;
+        line-height: 1.1;
+    }
+    .mint-button {
+        color: white;
+        font-size: 0.67rem;
+        height: auto;
+        line-height: 1;
+
+        .mintui-back {
+            font-size: 0.75rem;
+        }
+    }
+
+    .mint-header-button {
+        display: flex;
+        height: 100%;
+    }
+
+    .mint-header-button.is-right {
+        justify-content: flex-end;
+    }
+}
+
+.mint-indicator {
+    .mint-indicator-mask {
+        z-index: 9999;
+    }
+
+    .mint-indicator-wrapper {
+        z-index: 9999;
+
+        .mint-indicator-text {
+            z-index: 9999;
+            font-size: 0.6rem;
+        }
+    }
+}
+
+
